@@ -1,0 +1,9 @@
+[submodule "website/themes/hugo-profile"]
+	path = website/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile
+[submodule "themes/hugo-profile"]
+	path = themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile/
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git
