@@ -1,0 +1,357 @@
+baseURL: "https://liavila.io"
+languageCode: "en-us"
+title: "About Ireri"
+theme: 
+  - hugo-profile
+  - hugo-shortcode-gallery
+
+googleAnalytics: G-KGECC6G1HV
+
+# add 5 minute timeout to allow gallery to build
+timeout: 300000
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+    
+Paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Hello!"
+  description: Some stuff about me.
+  # staticPath: ""  # The path to serve the static files from
+  favicon: ''
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  color:
+    textColor: "#2171b5"
+    secondaryTextColor: "#6baed6"
+    backgroundColor: "F1F3FF"
+    secondaryBackgroundColor: "#aaaaaa"
+    primaryColor: "#2171b5"
+    secondaryColor: "#eff3ff"
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: "Hi there!" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Ireri."
+    subtitle: "I am a physicist/data scientist,"
+    content: "I'm passionate about science, math, understanding how things work, and creating things - in the data world and the real one.  
+      I enjoy applying my technical skills and creativity to solve problems. I love a balance between science and art so my creative outlet is makeup and arts and crafts."
+      
+
+    image: '/images/rishi_lofi_outline_mini.svg'
+    button:
+      enable: true
+      name: "Resume"
+      url: "resume.pdf"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/liavila
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/ireri-avila/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/mohan_ocean_iso.png"
+    content: "I am currently a Master's in Data Science student at the [University of San Francisco](https://usfca.edu), working for [Metaphor Data](https://metaphor.io/) as a Machine Learning Engineer. 
+      I did my bachelor's in Industrial Engineering at the [University of Illinois](https://illinois.edu), where I worked a lot with the [Illini Solar Car](https://illinisolarcar.com) team. **ILL!**
+      "
+
+    skills:
+      enable: true
+      title: "As far as technical skills go, here are some I currently have."
+      items:
+        - "Python"
+        - "Machine learning"
+        - "Transformers"
+        - "Deep learning"
+        - "Statistical modeling"
+        - "Data analysis"
+        - "NoSQL"
+        - "SQL"
+        - "Google Cloud Platform"
+        - "Spark"
+        - "LaTeX"
+        - "PyTorch"
+        - "Natural Language Processing"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    
+    items:
+      - job: "Data Scientist"
+        company: "Give Us The Floor"
+        companyUrl: "https://giveusthefloor.org/"
+        date: "October 2023 - Present"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: "Designed and implemented machine learning models, using NLP techniques to detect and predict events in an unbalanced dataset. Implemented recurrent schedule for full model pipeline with Apache Airflow and Google Cloud Composer. Currently mentoring two data science interns."
+
+      - job: "Data Analyst"
+        company: "Grupo Bimbo"
+        companyUrl: "https://www.grupobimbo.com/en"
+        date: "Mar 2021 - May 2022"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: "Created analytics scripts using Python and SQL for global audit reports, across 6 different organizations using data from an Oracle Database connection. Worked closely with different teams to identify KPIs and KRIs for analysis and dashboards in Power BI. Optimized previous scripts involving large amounts of data to reduce computing time by over 40%. "
+
+      - job: "Data Scientist"
+        company: "National Institute of Astrophysics, Optics and Electronics (INAOE)"
+        companyUrl: "https://www.inaoep.mx/en/"
+        date: "May 2019 - May 2020"
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
+        content: "Worked as part of a research team for cosmic flux analysis. Data mining of around 250K records from 28 different sources. Created multiple scripts to clean, normalize and analyze the data using time serties analysis. I used Matplotlib and Seaborn for data visualizations of the aforementioned data."
+
+      - job: "Lead Instructor"
+        company: "PI-Ensa"
+        companyUrl: ""
+        date: "Aug 2019 - Mar 2020"
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
+        content: "I worked as a lead instructor for an Experimental Physics program for youth. I designed, planned and led a weekly workshop for 20 students. Trained the new generation of instructors."
+      
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Business Administration"
+        school:
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Massachusetts Institute of Technology"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: title1
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # Projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Jira implementation
+        content: |
+          Implementation, maintenance, and administration of VPS-based Jira instance for team of 200+.
+          Using DigitalOcean cloud infrastructure, I developed a Jira instance for the Illini Solar Car team, and created trainings & workshops to run with group leads and team members ranging from the electrical group to the business group.
+        image: /projects/JIRA.svg
+        #featured:
+        # name: Live!
+        # link: https://jira.illinisolarcar.com
+        badges:
+          - "Networking"
+          - "Scripting"
+          - "Project Management"
+        # links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/hugo-profile
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: STAT447 final project
+        content: |
+          A team-based deep-dive analysis and series of visualizations on the relationship between adult obesity rates and heart disease mortality rates in the contiguous 48 states, using data from the CDC. 
+          I developed the choropleth maps and the associated data wrangling for the project, using the R statistical programming language via RStudio & GitHub for collaboration.
+        image: /projects/STAT447.svg
+        featured:
+          name: Our report
+          link: /projects/project-report.html
+        badges:
+          - "R"
+          - "GitHub"
+          - "ggplot2"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/illinois-stat447
+          - icon: fab fa-font-awesome
+            url: https://stat447.com
+
+      - title: Senior Engineering Project
+        content: |
+          Team based senior capstone project. Our team developed a computer-vision based nondestructive testing methodology for ultrasonically welded cable harnesses manufactured by an industry partner. 
+          Designed and assembled a testing frame including 2 machine vision cameras and a custom mounting system, wrote Python-based image capture and computer vision algorithms, and performed extensive statistical analysis & modeling.
+        image: /projects/SE494.svg
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: 
+    email: 
+    btnName: Mail me
+
+  footer:
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/liavila
+      linkedin: https://linkedin.com/in/ireri-avila/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
+  
+  imaging.exif:
+    includeFields: ".*"
+
+  # # List pages like blogs and posts
+  # listPages:
+  #   disableFeaturedImage: false
