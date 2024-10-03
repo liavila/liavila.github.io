@@ -1,8 +1,8 @@
 ---
-title: "Photo Gallery"
+title: "Crafts Gallery"
 draft: false
-description: "This is a brief collection of some of my favorite shots over the last few years. These photos are (mostly) in reverse chronological order." 
-date: 2023-10-25
+description: "Some of the creative projects I've done." 
+date: 2024-01-01
 layout: 'gallery'   
 ---
 
