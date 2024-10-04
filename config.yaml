@@ -199,14 +199,14 @@ params:
         content: "Created analytics scripts using Python and SQL for global audit reports, across 6 different organizations using data from an Oracle Database connection. Worked closely with different teams to identify KPIs and KRIs for analysis and dashboards in Power BI. Optimized previous scripts involving large amounts of data to reduce computing time by over 40%. "
 
       - job: "Data Scientist"
-        company: "National Institute of Astrophysics, Optics and Electronics (INAOE)"
+        company: "INAOE"
         companyUrl: "https://www.inaoep.mx/en/"
         date: "May 2019 - May 2020"
         featuredLink:
           enable: false
           name: ""
           url: ""
-        content: "Worked as part of a research team for cosmic flux analysis. Data mining of around 250K records from 28 different sources. Created multiple scripts to clean, normalize and analyze the data using time serties analysis. I used Matplotlib and Seaborn for data visualizations of the aforementioned data."
+        content: "Worked as part of a research team for cosmic flux analysis at the National Institute of Astrophysics, Optics and Electronics (INAOE). Data mining of around 250K records from 28 different sources. Created multiple scripts to clean, normalize and analyze the data using time serties analysis. I used Matplotlib and Seaborn for data visualizations of the aforementioned data."
 
       - job: "Lead Instructor"
         company: "PI-Ensa"
