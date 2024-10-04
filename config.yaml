@@ -88,12 +88,19 @@ params:
 
   # color preference
   color:
-    textColor: "#2171b5"
-    secondaryTextColor: "#6baed6"
-    backgroundColor: "F1F3FF"
-    secondaryBackgroundColor: "#aaaaaa"
-    primaryColor: "#2171b5"
-    secondaryColor: "#eff3ff"
+    textColor: "#D1D1D1"
+    secondaryTextColor: "#C1A3A3"
+    backgroundColor: "#470D21"
+    primaryColor: "#F3F0D7"
+    secondaryColor: "#781D42"
+    
+ # color:
+  #  textColor: "#2171b5"
+   # secondaryTextColor: "#6baed6"
+    #backgroundColor: "F1F3FF"
+    #secondaryBackgroundColor: "#aaaaaa"
+    #primaryColor: "#2171b5"
+    #secondaryColor: "#eff3ff"
 
   #   darkmode:
   #     textColor:
