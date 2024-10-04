@@ -128,7 +128,7 @@ params:
       I enjoy applying my technical skills and creativity to solve problems."
       
 
-    image: '/images/rishi_lofi_outline_mini.svg'
+    image: '/images/ireri_intro.jpg'
     button:
       enable: true
       name: "Resume"
