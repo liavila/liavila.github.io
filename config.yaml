@@ -1,6 +1,6 @@
 baseURL: "https://liavila.github.io"
 languageCode: "en-us"
-title: "About Ireri"
+title: "Ireri Avila"
 theme: 
   - hugo-profile
   - hugo-shortcode-gallery
@@ -58,7 +58,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hello!"
+  title: "Welcome to my little piece of the internet!"
   description: Some stuff about me.
   # staticPath: ""  # The path to serve the static files from
   favicon: ''
@@ -125,7 +125,7 @@ params:
     title: "Ireri."
     subtitle: "I am a physicist/data scientist,"
     content: "I'm passionate about science, math, understanding how things work, and creating things - in the data world and the real one.  
-      I enjoy applying my technical skills and creativity to solve problems. I love a balance between science and art so my creative outlet is makeup and arts and crafts."
+      I enjoy applying my technical skills and creativity to solve problems."
       
 
     image: '/images/rishi_lofi_outline_mini.svg'
@@ -150,8 +150,8 @@ params:
     enable: true
     title: "About Me"
     image: "/images/mohan_ocean_iso.png"
-    content: "I am currently a Master's in Data Science student at the [University of San Francisco](https://usfca.edu), working for [Metaphor Data](https://metaphor.io/) as a Machine Learning Engineer. 
-      I did my bachelor's in Industrial Engineering at the [University of Illinois](https://illinois.edu), where I worked a lot with the [Illini Solar Car](https://illinisolarcar.com) team. **ILL!**
+    content: "Most recently I finished my Master's in Data Science student at the [University of San Francisco](https://usfca.edu), working for [Give Us The Floor](https://giveusthefloor.org/) as a Data Scientist. 
+      I did my bachelor's in Physics, and loved every second of it.
       "
 
     skills:
@@ -171,6 +171,8 @@ params:
         - "LaTeX"
         - "PyTorch"
         - "Natural Language Processing"
+        - "Power BI"
+        - "Tableau"
 
   # Experience
   experience:
