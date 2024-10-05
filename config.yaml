@@ -34,7 +34,7 @@ Menus:
     #   title: Blog posts
     #   url: /blogs
     #   weight: 1
-     identifier: gallery
+    - identifier: gallery
       name: Gallery
       title: Blog posts
       url: /gallery
