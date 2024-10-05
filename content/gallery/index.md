@@ -1,9 +1,12 @@
 ---
-title: "Crafts Gallery"
-draft: false
-description: "Some of the creative projects I've done." 
-date: 2024-01-01
-layout: 'gallery'   
+description: "I've always been a student of the 'College of Arts and Sciences' during my studies. So it is only necessary a mix of my creative outlets and my art. (I also love dogs.)" 
+#lastmod: 2024-10-04
+title: Gallery
+featured_image: novak.jpg # default: first image in this directory
+# featured_image on the home page is used for OpenGraph cards, etc.
+menus:
+  main:
+    name: Home
+    weight: -1
+# sub-galleries on list pages are sorted by date and weight (descending)
 ---
-
-{{< gallery match="images/*" loadJQuery=true sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q80 Lanczos" showExif=true previewType="none" embedPreview=true thumbnailHoverEffect="enlarge">}}
