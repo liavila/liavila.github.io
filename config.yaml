@@ -3,7 +3,6 @@ languageCode: "en-us"
 title: "Ireri Avila"
 theme: 
   - hugo-profile
-  - hugo-shortcode-gallery
   - gallery
 
 googleAnalytics: G-KGECC6G1HV
