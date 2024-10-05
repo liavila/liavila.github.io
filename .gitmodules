@@ -9,4 +9,5 @@
 	url = https://github.com/mfg92/hugo-shortcode-gallery.git
 [submodule "themes/gallery"]
 	path = themes/gallery
-	url = https://github.com/nicokaiser/hugo-theme-gallery.git
+	url = https://github.com/liavila/hugo-theme-gallery.git
+
