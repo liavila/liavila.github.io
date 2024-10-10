@@ -5,7 +5,7 @@ theme:
   - hugo-profile
   - gallery
 
-googleAnalytics: G-KGECC6G1HV
+# googleAnalytics: G-KGECC6G1HV
 
 # add 5 minute timeout to allow gallery to build
 timeout: 300000
@@ -27,6 +27,8 @@ markup:
     renderer:
       unsafe: true
 
+permalinks:
+  gallery: "gallery/:slug/"
 #Menus:
   #main:
     # - identifier: blog
@@ -62,6 +64,7 @@ params:
   description: Some stuff about me.
   # staticPath: ""  # The path to serve the static files from
   favicon: 'images/favicon.png'
+  
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -77,6 +80,8 @@ params:
   animate: true
 
   theme:
+  defaultTheme: "hugo-profile"
+  galleryTheme: "gallery"
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
 
@@ -88,12 +93,12 @@ params:
 
   # color preference    
   color:
-    textColor: "#2171b5"
-    secondaryTextColor: "#6baed6"
-    backgroundColor: "F1F3FF"
+    textColor: "#626294"
+    secondaryTextColor: "#545480"
+    backgroundColor: "A4A4B8"
     secondaryBackgroundColor: "#aaaaaa"
     primaryColor: "#2171b5"
-    secondaryColor: "#eff3ff"
+    secondaryColor: "#c1c1d9"
 
   #   darkmode:
   #     textColor:
@@ -187,7 +192,7 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: "Designed and implemented machine learning models, using NLP techniques to detect and predict events in an unbalanced dataset. Implemented recurrent schedule for full model pipeline with Apache Airflow and Google Cloud Composer. Currently mentoring two data science interns."
+        content: "Designed and implemented machine learning models, using NLP techniques to detect and predict events in an unbalanced dataset. Implemented recurrent schedule for full model pipeline with Apache Airflow and Google Cloud Composer. Currently in charge of training two data science interns."
 
       - job: "Data Analyst"
         company: "Grupo Bimbo"

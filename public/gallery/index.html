@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,31 +28,19 @@
 
 
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGECC6G1HV"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-KGECC6G1HV');
-        }
-      </script>
-<meta property="og:url" content="https://liavila.github.io/gallery/">
+<meta property="og:url" content="http://localhost:1313/gallery/">
   <meta property="og:site_name" content="Ireri Avila">
-  <meta property="og:title" content="Gallery">
-  <meta property="og:description" content="I&#39;ve always been a student of the &#39;College of Arts and Sciences&#39; during my studies. So it is only necessary a mix of my creative outlets and my art. (I also love dogs.)">
+  <meta property="og:title" content="Image Gallery">
+  <meta property="og:description" content="My arts &amp; science gallery">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2022-06-25T18:35:46+05:30">
+    <meta property="article:modified_time" content="2022-06-25T18:35:46+05:30">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Gallery">
-  <meta name="twitter:description" content="I&#39;ve always been a student of the &#39;College of Arts and Sciences&#39; during my studies. So it is only necessary a mix of my creative outlets and my art. (I also love dogs.)">
+  <meta name="twitter:title" content="Image Gallery">
+  <meta name="twitter:description" content="My arts &amp; science gallery">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -63,13 +51,13 @@
 
 <style>
     :root {
-        --text-color: #2171b5;
-        --text-secondary-color: #6baed6;
+        --text-color: #626294;
+        --text-secondary-color: #545480;
         --text-link-color: #2171b5;
-        --background-color: F1F3FF;
+        --background-color: A4A4B8;
         --secondary-background-color: #aaaaaa;
         --primary-color: #2171b5;
-        --secondary-color: #eff3ff;
+        --secondary-color: #c1c1d9;
 
          
         --text-color-dark: #e4e6eb;
@@ -116,7 +104,7 @@
 
 
 
-<meta name="description" content="Gallery of Ireri Avila">
+<meta name="description" content="Image Gallery of Ireri Avila">
 
 
 <link rel="stylesheet" href="/css/gallery.css">
@@ -130,7 +118,7 @@
   
 
   <title>
-Gallery | Ireri Avila
+Image Gallery | Ireri Avila
 
   </title>
 </head>
@@ -217,16 +205,6 @@ Gallery | Ireri Avila
 
                     
                     
-                    
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/gallery/" title="Gallery">
-                            
-                            Gallery
-                        </a>
-                    </li>
-                    
-                    
 
                     
                     <li class="nav-item navbar-text">
@@ -260,13 +238,19 @@ Gallery | Ireri Avila
 </header>
 <div id="content">
 <div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Gallery</h2>
-    <h6 class="text-center">I've always been a student of the 'College of Arts and Sciences' during my studies. So it is only necessary a mix of my creative outlets and my art. (I also love dogs.)</h6>
+    <h2 class="text-center pb-2">Image Gallery</h2>
+    <h6 class="text-center">My arts & science gallery</h6>
     <div class="row p-4">
         
     </div>
     <div class="card-group p-4">
         <div class="row justify-content-center">
+            
+            <div class="col-md-4 p-0 m-0">
+                <div class="card p-0 m-0 border-0">
+                    <img class="w-100 viewer-enabled-image" height="280px" src="novak.jpg">
+                </div>
+            </div>
             
         </div>
     </div>
@@ -276,7 +260,7 @@ Gallery | Ireri Avila
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var viewer = new Viewer(document.getElementById('list-page'), {
-            ... null 
+            ...{"title":false}
         });
     });
 </script>
@@ -339,7 +323,7 @@ Gallery | Ireri Avila
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://liavila.github.io/" title="Ireri Avila">
+                    <a href="http://localhost:1313/" title="Ireri Avila">
                         <img alt="Footer logo" src="images/favicon.png"
                             height="40px" width="40px">
                     </a>
