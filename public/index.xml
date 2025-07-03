@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ireri Avila</title>
-    <link>https://liavila.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ireri Avila</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jun 2022 18:35:46 +0530</lastBuildDate>
-    <atom:link href="https://liavila.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Gallery</title>
-      <link>https://liavila.github.io/gallery/</link>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>https://liavila.github.io/gallery/</guid>
+      <guid>http://localhost:1313/gallery/</guid>
       <description></description>
     </item>
   </channel>
