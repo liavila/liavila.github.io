@@ -19,10 +19,16 @@ outputs:
     - "HTML"
     - "RSS"
     
-[pagination]
-  pagerSize = 3
-
 enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
 
 markup:
   goldmark:
