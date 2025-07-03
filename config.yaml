@@ -129,8 +129,9 @@ params:
     intro: "Hi, my name is"
     title: "Ireri."
     subtitle: "I am a physicist/data scientist,"
-    content: "I'm passionate about science, math, understanding how things work, and creating things - in the data world and the real one.  
-      I enjoy applying my technical skills and creativity to solve problems."
+    content: "I love digging into how things work and using both logic and creativity to solve problems
+      whether in data or hands-on projects. My background in science and math drives my curiosity,
+      and I enjoy applying those skills to build smart, practical solutions."
       
 
     image: '/images/ireri_intro.jpg'
@@ -178,6 +179,9 @@ params:
         - "Natural Language Processing"
         - "Power BI"
         - "Tableau"
+        - "dbt"
+        - "Airflow"
+        - "Looker"
 
   # Experience
   experience:
@@ -192,7 +196,7 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: "Designed and implemented machine learning models, using NLP techniques to detect and predict events in an unbalanced dataset. Implemented recurrent schedule for full model pipeline with Apache Airflow and Google Cloud Composer. Currently in charge of training two data science interns."
+        content: "Designed and implemented machine learning models, using NLP techniques to detect and predict events in an unbalanced dataset. Implemented recurrent schedule for full model pipeline with Apache Airflow and Google Cloud Composer. Current lead of three data science interns."
 
       - job: "Data Analyst"
         company: "Grupo Bimbo"
